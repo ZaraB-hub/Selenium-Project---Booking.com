@@ -45,8 +45,7 @@ import org.openqa.selenium.support.ui.Select;
 	  void testCarLocation() throws InterruptedException {
 		  webDriver.get(baseUrl);
 		  webDriver.manage().window().maximize();
-		  webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+		 
 		  Thread.sleep(2000);
 		  //different location 
 		  webDriver.findElement(By.cssSelector(".bui-radio:nth-child(2) > .bui-radio__label")).click();
